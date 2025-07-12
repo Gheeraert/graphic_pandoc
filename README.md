@@ -22,34 +22,21 @@ Un outil graphique minimaliste (Tkinter) pour interagir avec [Pandoc](https://pa
 
 ## 🚀 Installation
 
-### 1. Installer Python (si ce n’est pas déjà fait)
-
-Téléchargez-le depuis : [https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-### 2. Cloner le dépôt
-
-```bash
-git clone https://github.com/tonygheeraert/pandoc-gui.git
-cd pandoc-gui
 
 ### 3. Installer Pandoc
 
 Téléchargez Pandoc depuis le site officiel :  
 👉 [https://pandoc.org/install.html](https://pandoc.org/install.html)
 
-> ✅ Assurez-vous que la commande `pandoc` fonctionne dans votre terminal :
+> ✅ Assurez-vous que la commande `pandoc` fonctionne dans votre terminal : pandoc --version
 
-```bash
-pandoc --version
 
 ## ▶️ Lancer l’application
 
-Dans le terminal, à la racine du projet, exécutez :
-
-```bash
-python pandoc_gui.py
+Dans le terminal, à la racine du projet, exécutez : python pandoc_gui.py
 
 L’interface graphique s’ouvre et vous permet de sélectionner vos fichiers et options de conversion.
+
 
 ## 📦 Dépendances
 
@@ -72,9 +59,9 @@ Ce projet repose sur :
 
 L’application génère automatiquement une commande Pandoc équivalente à :
 
-```bash
 pandoc mon_article.md -f markdown -t pdf -o mon_article.pdf \
   --standalone --toc --bibliography biblio.bib --csl apa.csl --citeproc
+
 
 ## 🔧 Développements prévus
 
@@ -94,5 +81,5 @@ pandoc mon_article.md -f markdown -t pdf -o mon_article.pdf \
 
 ## ✉️ Contact
 
-Développé par **Tony Gheeraert** (Université de Rouen Normandie) à partir de [Pandoc](https://pandoc.org/)
+Développé par **Tony Gheeraert** (Presses universitaires de Rouen et du Havre - Université de Rouen Normandie) à partir de [Pandoc](https://pandoc.org/)
 
