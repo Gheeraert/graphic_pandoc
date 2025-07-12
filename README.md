@@ -1,4 +1,4 @@
-# Graphic Pandoc – Convertisseur graphique pour Pandoc
+# Pandoc-GUI – Convertisseur graphique pour Pandoc
 
 Un outil graphique minimaliste (Tkinter) pour interagir avec [Pandoc](https://pandoc.org/) sans passer par la ligne de commande.
 
